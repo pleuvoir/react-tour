@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "electron": "^22.0.0"
+  },
+  "scripts": {
+    "start": "electron-forge start"
+  }
+}
