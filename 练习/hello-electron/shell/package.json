@@ -3,9 +3,25 @@
   "main": "src/main.js",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.4",
-    "electron": "^22.0.0"
+    "electron": "^22.0.0",
+    "electron-builder": "^22.14.8"
   },
   "scripts": {
-    "start": "electron-forge start"
+    "start": "electron-forge start",
+    "build": "electron-builder",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "pleuvoir",
+  "license": "MIT",
+  "name": "my-electron-app",
+  "description": "My Electron App",
+  "build": {
+    "appId": "com.example.app",
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.png"
+    }
   }
+
 }

@@ -1,3 +1,6 @@
 .idea
 node_modules
 .DS_Store
+练习/hello-electron/shell/dist
+练习/hello-electron/shell/out/my-electron-app-darwin-x64/my-electron-app.app/Contents
+练习/hello-electron/shell/out/my-electron-app-darwin-x64
