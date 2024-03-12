@@ -1,12 +1,14 @@
-import Image from "next/image";
-import Card from "../components/card";
+import Card from "../components/Card";
+import CustomBtn from "../components/CustomBtn";
+
 
 export default function Home() {
     return (
       <div>
           <header>header</header>
           <main>我是Main
-                <Card index={1222}/>
+                <Card title={'呵呵'} age={18} desc={'122'}/>
+                 <CustomBtn name={'按钮我是'}/>
           </main>
       </div>
     );
