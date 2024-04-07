@@ -261,3 +261,6 @@ export const CombinedCardItem = () => {
     <CombinedCardItem/>
 </CombinedCard>
 ```
+
+
+## 使用redux

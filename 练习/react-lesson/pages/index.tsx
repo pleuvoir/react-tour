@@ -3,6 +3,9 @@ import CustomBtn from "../components/CustomBtn";
 import {MockList} from "../components/MockList";
 import {CombinedCard} from "../components/CombineCard";
 import {CombinedCardItem} from "../components/CombineCardItem";
+import ReduxBtn from "../components/ReduxDemo";
+import store from "../store";
+import {Provider} from "react-redux";
 
 
 export default function Home() {
@@ -21,6 +24,13 @@ export default function Home() {
           <CombinedCard>
               <CombinedCardItem/>
           </CombinedCard>
+
+
+
+          <Provider store={store}>
+              <ReduxBtn/>
+          </Provider>
+
       </div>
     );
 }
